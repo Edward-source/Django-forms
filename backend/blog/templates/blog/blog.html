@@ -1,0 +1,7 @@
+{%extends "blog/base.html"%} {%block content%}
+
+<form action=" " method="post">
+    {%csrf_token%}{{FORM.as_p}}
+    <input type="submit">
+</form>
+{%endblock%}
