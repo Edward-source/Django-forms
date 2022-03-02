@@ -14,7 +14,7 @@ Gone are the days of scouring job ads in newspapers and spending money to mail h
 
 Five top reasons for using the internet when job searching include: finding open positions, researching potential employers, applying online, comparing salaries and marketing yourself as a top-notch candidate. You can also tap the hidden job market by reaching out to contacts online and being the first to apply.
 
-# Requarements
+# Requirements
 
 - Django
 - Python
