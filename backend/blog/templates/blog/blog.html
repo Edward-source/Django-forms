@@ -3,7 +3,13 @@
     <h4>Post Job</h4>
     <form action=" " method="post">
         {%csrf_token %} {{FORM|crispy}}
-        <button type="submit" class="btn btn-success">post now</button>
+        <button type="submit" class="btn btn-success" onclick="msg()">post now</button>
     </form>
+
+    <script>
+        function msg() {
+            alert("Thank you for posting")
+        }
+    </script>
 </div>
 {%endblock%}
