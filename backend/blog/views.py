@@ -1,4 +1,3 @@
-from signal import raise_signal
 from django.http import HttpResponse
 from django.shortcuts import render
 from django.views import View
@@ -6,6 +5,11 @@ from .forms import *
 
 # Create your views here.
 class Post(View):
+    
+    """
+    Inherit parent Views class for all views.
+    Intentionally simple parent class for all get and post views.
+    """
 
     def get(self, request, *args, **kwargs):
 
@@ -27,7 +31,7 @@ class Post(View):
             return HttpResponse(http_error)
 
         if form.is_valid():
-            print("Savaing ...")
+            print("Saving ...")
             form.save()
         return HttpResponse(http_success)
         
