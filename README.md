@@ -55,4 +55,3 @@ It is possible to write code that does all of this manually, but Django can take
 - HTML5 and CSS3
 
 
-
